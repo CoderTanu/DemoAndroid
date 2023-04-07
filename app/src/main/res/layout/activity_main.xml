@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+   android:id="@id/linearLayout"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Welcome to my App"
+        android:textColor="@color/teal_200"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark"
+
+        android:fontFamily="serif-monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:fontFamily="serif-monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+
+        android:fontFamily="serif-monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+
+
+</LinearLayout>
